@@ -1,0 +1,15 @@
+{
+  "name": "dao-den-long",
+  "version": "1.0.0",
+  "description": "Đảo Đèn Lồng — 3D lantern-keeper fairy-tale game (v1.0.0)",
+  "private": true,
+  "scripts": {
+    "build": "node --check src/sim.js src/headless.js src/serve.js src/bench.js src/soak.js src/game.js tests/run_tests.js",
+    "start": "node src/serve.js",
+    "headless": "node src/headless.js",
+    "bench": "node src/bench.js",
+    "soak": "node --jitless --max-semi-space-size=1 --expose-gc src/soak.js",
+    "test": "node tests/run_tests.js"
+  },
+  "license": "MIT"
+}

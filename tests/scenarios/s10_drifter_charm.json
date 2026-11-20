@@ -1,0 +1,15 @@
+{
+  "player": { "pos": [0, 0, 0], "carried": 6, "flames": 3, "invuln_ticks": 120 },
+  "random_motes": false,
+  "random_shades": false,
+  "random_drifters": false,
+  "motes": [],
+  "shades": [],
+  "drifters": [
+    { "id": "D1", "pos": [0, 1.2, 3.0], "state": "idle", "stolen": 0 }
+  ],
+  "charms": [
+    { "id": "C1", "pos": [0, 0, -2.5], "available": true }
+  ],
+  "time_left_s": 330
+}
